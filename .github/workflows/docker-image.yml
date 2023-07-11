@@ -3,7 +3,7 @@ name: Docker Image CI - dotnet-api-template
 on: push
 
 env:
-  APP_NAME: dotnet-api-template
+  APP_NAME: monthlymote-dotnet7
 
 jobs:
   build:
