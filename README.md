@@ -1,6 +1,10 @@
-# MonthlyMote
+﻿# MonthlyMote
 
 MonthlyMote is a simple API which provides an emote for the given month.
+
+## Using the API
+<hosting address>/api/month -> Provides a JSON of all months with their emojis
+<hosting address>/api/month/<insert month here> -> Returns the emoji associated with the month
 
 
 ## Deployment
@@ -34,8 +38,14 @@ Response Time Metrics: https://files.slack.com/files-tmb/T054LF3P954-F05GNRNGV5H
 ## Branches
 main -> Fork of https://github.com/rezabmirzaei/dotnet-api-template/tree/2d1d47e327c3ef435dd994d94d8de5e7e19a419a with my own API.
 Due to unidentifiable issues with Docker deployment in my fully self-made project director, I forked this to be able to continue the assignment.
+### Important commits
+commit bb64f35: added my own API in the template 
+commit 92fdcfe: added bicep files 
+commit dedb7c7: Changed july emote from ☀ to 🌴  
+commit c788e3c: Changed august emoji from 🎋 to 🎂, updated README 
+commit 79c248b: updated readme, removed weatherforecast template files 
 
 ## Resources
 Docker Repo: https://hub.docker.com/repository/docker/sybrenk/monthlymote-dotnet7/general
-
 Github: https://github.com/SybrenK/dotnet-api-template
+Azure deployment URL (likely offline): https://wapp-thhwxp4pl6g4q.azurewebsites.net/api/month
